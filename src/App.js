@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Home from './components/Home';
+import Music from './components/Music';
+import AboutUs from './components/AboutUs';
+import Shows from './components/Shows';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div >
+        <Header></Header>
+      <div className='hero-container' >
+
+        {/* <Practice style={{display:"flex",justifyContent:"center",alignItem:"center",flexWrap:"column wrap",margin:"auto"}}></Practice>
+        <Practice1 />
+        <Practice2 /> */}
+        <Home />
+        <Music />
+        <AboutUs />
+        <Shows />
+      </div>
+      <Footer></Footer>
+   </div>
   );
 }
 

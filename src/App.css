@@ -1,6 +1,14 @@
 .App {
   text-align: center;
 }
+/* *{} */
+.hero-container{
+  background-image: url(../cas-bg.jpg);
+  height: 80vh;
+  width: 100%;
+  background-position: center;
+
+}
 
 .App-logo {
   height: 40vmin;
