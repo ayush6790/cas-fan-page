@@ -10,13 +10,9 @@ import Shows from './components/Shows';
 
 function App() {
   return (
-    <div >
-        <Header></Header>
+    <div>
+        <Header />
       <div className='hero-container' >
-
-        {/* <Practice style={{display:"flex",justifyContent:"center",alignItem:"center",flexWrap:"column wrap",margin:"auto"}}></Practice>
-        <Practice1 />
-        <Practice2 /> */}
         <Home />
         <Music />
         <AboutUs />

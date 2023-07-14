@@ -8,6 +8,7 @@ export default function App() {
         position: 'fixed',
         bottom: '0',
         left: '0',
+		right: '0',
         width: '100%',
         background: 'black',
         padding: '0',
