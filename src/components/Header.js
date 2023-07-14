@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { MDBBtn } from 'mdb-react-ui-kit';
 
 const Container = styled.div`
 position:fixed;
@@ -20,13 +19,6 @@ height:140px;
   }
 `;
 
-const Logo = styled.img`
-  display: block;
-  height: 50px;
-  width: 50px;
-  margin-right: 10px;
-  color: transparent;
-`;
 
 const ButtonGroup = styled.div`
   display: flex;
@@ -101,7 +93,7 @@ export default function Header() {
       </div> */}
       </div>
     </Container>
-    <div className='forAddingImg'><br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+    <div className='forAddingImg'><br /> <br /> <br /> <br /> <br /> <br /> 
     <br /> <br /> <br /> <br /> <br /> <br /> <br /><br /> <br /> <br /> <br /> <br /> <br /> <br />
     "Indulge in the ethereal melodies and intimate lyricism of Cigarettes After Sex, a mesmerizing American ambient pop band hailing from El Paso. Immerse yourself in their atmospheric soundscapes and let their music transport you to a world of emotional depth and introspection. 
 
