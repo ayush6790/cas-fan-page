@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cas-fan-page/static/css/main.a1e3831b.css",
-    "main.js": "/cas-fan-page/static/js/main.2f73079e.js",
+    "main.js": "/cas-fan-page/static/js/main.4bb0d266.js",
     "static/js/787.635aedaa.chunk.js": "/cas-fan-page/static/js/787.635aedaa.chunk.js",
     "static/media/img7.jpg": "/cas-fan-page/static/media/img7.12a27d4aa398bb4ce38a.jpg",
     "static/media/Falling+In+Love.jpg": "/cas-fan-page/static/media/Falling+In+Love.b1a58aed3c7df332c26b.jpg",
@@ -28,11 +28,11 @@
     "static/media/fa-v4compatibility.woff2": "/cas-fan-page/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/cas-fan-page/index.html",
     "main.a1e3831b.css.map": "/cas-fan-page/static/css/main.a1e3831b.css.map",
-    "main.2f73079e.js.map": "/cas-fan-page/static/js/main.2f73079e.js.map",
+    "main.4bb0d266.js.map": "/cas-fan-page/static/js/main.4bb0d266.js.map",
     "787.635aedaa.chunk.js.map": "/cas-fan-page/static/js/787.635aedaa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a1e3831b.css",
-    "static/js/main.2f73079e.js"
+    "static/js/main.4bb0d266.js"
   ]
 }
