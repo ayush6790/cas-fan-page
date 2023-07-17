@@ -18,7 +18,8 @@ function App() {
         <div className='hero-container'>
       <Routes>
         <Route path="/" element={<Home />}/>      
-        <Route path="/music" element={<Music />}/>      
+        <Route path="/cas-fan-page" element={<Home />}/>
+            <Route path="/music" element={<Music />}/>      
 
         <Route path="/music/pistol" element={<PistolLyr />}/> 
         <Route path="/music/yourealliwant" element={<YoualliwantLyr />}/> 
