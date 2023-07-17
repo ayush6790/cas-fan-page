@@ -10,8 +10,16 @@ import Cas from "./albumArt/Cigarettes+After+Sex.jpg";
 import Affection from "./albumArt/Affection.jpeg";
 import Ep1 from "./albumArt/EP+I.jpeg";
 
+import { Link, useNavigate } from "react-router-dom";
+
+
+
+
+
 
 export default function Music() {
+    const navigate = useNavigate();
+
     return (
         <>
             <div className="musicGrid" >
@@ -19,12 +27,12 @@ export default function Music() {
                     <div id="music1">
                         <img src={Pistol} alt="ds" srcset="" height={300} width={300} />
                         <h4>Pistol</h4>
-                        <p>1.Pistol</p>
+                        <Link to="/music/pistol">1.Pistol</Link>
                     </div>
                     <div id="music2">
                         <img src={Youre} alt="ds" srcset="" height={300} width={300} />
                         <h4>You're All I Want</h4>
-                        <p>1.You're All I Want</p>
+                        <Link to='/music/yourealliwant'>1.You're All I Want</Link>
                     </div>
                 </div>
                 <div className="musicGrid2">

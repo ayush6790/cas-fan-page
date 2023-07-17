@@ -5,6 +5,7 @@
   /* font: italic 1.2em "Fira Sans", serif; */
   font: normal 1.2em "Fira Sans", serif;
   font-size: large;
+
 }
 .headerComp{
   display:flex ;
@@ -71,9 +72,44 @@
   }
 }
 
+/* Css for lyrics page */
+
+.lyricsDiv{
+  display:block;
+  height:100%;
+  background:rgba(0,0,0,0.9);
+}
+.containerLyricsPage {
+  display: flex;
+  
+}
+
+.left-div {
+  flex: 1;
+  /* background-color: lightblue; */
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+.left-div img{
+  height: 450px;
+  width: 450px;
+}
+
+.right-div {
+  padding: 20px;
+  flex: 1;
+  height: 100%;
+  width: 50%;
+  color: #ffffff;
+  /* background-color: lightgreen; */
+}
+
 /*  Music page cc*/
 .musicGrid{
-  background-color: #000;
+  background-color: rgba(0,0,0,0.96);
 }
 .musicGrid1, .musicGrid2, .musicGrid3, .musicGrid4, .musicGrid5 {
   padding: 10px;
@@ -97,6 +133,14 @@
   text-transform: uppercase;
   margin: 15px;
 }
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover{
+  color: salmon;
+}
+
 
 /* .mainImageContainer
 {
