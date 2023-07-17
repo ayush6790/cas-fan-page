@@ -1,14 +1,15 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import styled from "styled-components";
 
 const Container = styled.div`
-position:fixed;
-top:0;
-left:0;
-right:0;
-z-index:999;
-height:140px;
-  background-color: rgba(0, 0, 0, 0.8);
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  height: 140px;
+  background-color: rgba(0, 0, 0, 0.9);
   padding: 9px;
 
   @media (min-width: 768px) {
@@ -18,7 +19,6 @@ height:140px;
     height: 9vh;
   }
 `;
-
 
 const ButtonGroup = styled.div`
   display: flex;
@@ -33,13 +33,13 @@ const ButtonGroup = styled.div`
 
 const Button = styled.button`
   margin: 2px;
-  color: rgba(255, 255, 255,0.7);
-  background-color: rgba(0, 0, 0,0);
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(0, 0, 0, 0);
   border-radius: 5px;
   height: 50px;
   width: 100px;
   border-color: rgba(0, 0, 0, 0.2);
-  border:none !important;
+  border: none !important;
 `;
 
 // const SearchInput = styled.input`
@@ -47,7 +47,7 @@ const Button = styled.button`
 //   border: 2px solid gray;
 //   height: 50px;
 //   width: 75px;
-//   margin-top: 2px; 
+//   margin-top: 2px;
 //   background-color: rgba(0, 0, 0, 0.2);
 //   color: gray;
 //   &::placeholder {
@@ -60,45 +60,49 @@ const Button = styled.button`
 // `;
 
 export default function Header() {
-    const handleButtonClick = (buttonName) => {
-        console.log(`Button "${buttonName}" clicked!`);
-        // Perform your desired action here
-        if (buttonName === 'Home') {
-            window.open('https://www.cigarettesaftersex.com/', '_blank');
-        } else if (buttonName === 'Music') {
-            window.open('https://www.cigarettesaftersex.com/lyrics-index', '_blank');
-        }
-        // else console.error('Unknown button');
-        else alert('Unknown button');
-      };
-  return (
-    <>
-    <Container>
-        <div className='headerComp'>
-      <div className='headerContent' >
-      
-      <ButtonGroup>
-        {/* <Button type="button">Home</Button>
+  const navigate = useNavigate();
+ 
+    return (
+      <>
+        <Container>
+          <div className="headerComp">
+            <div className="headerContent">
+              <ButtonGroup>
+                {/* <Button type="button">Home</Button>
         <Button type="button">Music</Button>
         <Button type="button">About us</Button>
         <Button type="button">Shows</Button> */}
-        <Button type="button" onClick={() => handleButtonClick('Home')}>Home</Button>
-        <Button type="button" onClick={() => handleButtonClick('Music')}>Music</Button>
-        <Button type="button" onClick={() => handleButtonClick('About us')}>About us</Button>
-        <Button type="button" onClick={() => handleButtonClick('Shows')}>Shows</Button>
-      </ButtonGroup>
-      </div>
-      {/* <div>
+                <Button type="button" onClick={() => navigate("/")}>
+                  Home
+                </Button>
+                <Button type="button" onClick={() => navigate("/music")}>
+                  Music
+                </Button>
+                <Button
+                  type="button"
+                  onClick={() => navigate("/about")}
+                >
+                  About us
+                </Button>
+                <Button
+                  type="button"
+                  onClick={() => navigate("/shows")}
+                >
+                  Shows
+                </Button>
+              </ButtonGroup>
+            </div>
+            {/* <div>
         <SearchInput type="text" placeholder='Search' />
       </div> */}
-      </div>
-    </Container>
-    <div className='forAddingImg'><br /> <br /> <br /> <br /> <br /> <br /> 
+          </div>
+        </Container>
+        {/* <div className='forAddingImg'><br /> <br /> <br /> <br /> <br /> <br /> 
     <br /> <br /> <br /> <br /> <br /> <br /> <br /><br /> <br /> <br /> <br /> <br /> <br /> <br />
     "Indulge in the ethereal melodies and intimate lyricism of Cigarettes After Sex, a mesmerizing American ambient pop band hailing from El Paso. Immerse yourself in their atmospheric soundscapes and let their music transport you to a world of emotional depth and introspection. 
 
-    </div>
-    </>
-  );
-}
+    </div> */}
+      </>
+    );
+  };
 

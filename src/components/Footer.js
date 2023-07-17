@@ -5,7 +5,7 @@ export default function App() {
   return (
     <MDBFooter
       style={{
-        position: 'fixed',
+        position: 'relative',
         bottom: '0',
         left: '0',
 		right: '0',
@@ -37,7 +37,7 @@ export default function App() {
 
       <div
         className='text-center py-2'
-        style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)',color:'rgba(255, 255, 255, 0.2)' }}
+        style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)',color:'rgba(255, 255, 255, 0.8)' }}
       >
         © 2023 Work in Progress
       </div>

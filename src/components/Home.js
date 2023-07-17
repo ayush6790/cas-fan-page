@@ -4,6 +4,7 @@ import React from 'react'
 export default function Home() {
     return (
         <>
+       
             <div className="parent" >
                 <div className="parallex">
                     <div style={{ backgroundColor: 'rgba(0, 0, 0, 0.3)', boxShadow: '20px 20px 20px rgba(0, 0, 0, 0.3)', backdropFilter: 'blur(5px)', zIndex: 1, border:'0px', borderRadius:'10px' }}>
