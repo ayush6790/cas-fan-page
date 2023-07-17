@@ -14,7 +14,8 @@ function App() {
         <Header />
         <div className='hero-container'>
       <Routes>
-        <Route path="/" element={<Home />}/>      
+        <Route path="/" element={<Home />}/>    
+        <Route path="/cas-fan-page" element={<Home />}/>  
         <Route path="/music" element={<Music />}/>      
         <Route path="/about" element={<About />}/>      
         <Route path="/shows" element={<Shows />}/>      
