@@ -81,6 +81,7 @@
 }
 .containerLyricsPage {
   display: flex;
+  height: 100vh;
   
 }
 

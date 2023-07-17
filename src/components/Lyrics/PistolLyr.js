@@ -6,7 +6,7 @@ export default function PistolLyr() {
     <div className='lyricsDiv' >
     <div className="containerLyricsPage">
       <div className="left-div">
-        <img src={Pistolimg} alt="Pistol" />
+      <iframe src="https://www.youtube.com/embed/rrXobXg73ec?autoplay=1&mute=1" title="Pistol" width="450" height="450" />
       </div>
       <div className="right-div">
         <h3>PISTOL</h3>
