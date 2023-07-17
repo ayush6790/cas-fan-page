@@ -1,28 +1,38 @@
 {
   "files": {
-    "main.css": "/cas-fan-page/static/css/main.9df221c0.css",
-    "main.js": "/cas-fan-page/static/js/main.8d41be13.js",
+    "main.css": "/cas-fan-page/static/css/main.42488b50.css",
+    "main.js": "/cas-fan-page/static/js/main.fe6a1ef4.js",
     "static/js/787.635aedaa.chunk.js": "/cas-fan-page/static/js/787.635aedaa.chunk.js",
     "static/media/img7.jpg": "/cas-fan-page/static/media/img7.12a27d4aa398bb4ce38a.jpg",
+    "static/media/Falling+In+Love.jpg": "/cas-fan-page/static/media/Falling+In+Love.b1a58aed3c7df332c26b.jpg",
+    "static/media/Pistol.jpg": "/cas-fan-page/static/media/Pistol.631613ab40437abf355e.jpg",
     "static/media/img4.jpg": "/cas-fan-page/static/media/img4.779228fff51f0de59a9e.jpg",
+    "static/media/Youre+All+I+Want.jpg": "/cas-fan-page/static/media/Youre+All+I+Want.9fae083ed9d1aba9927b.jpg",
+    "static/media/Cry-min.jpg": "/cas-fan-page/static/media/Cry-min.8e5d70e19c7bd916e4c5.jpg",
     "static/media/fa-solid-900.ttf": "/cas-fan-page/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/EP+I.jpeg": "/cas-fan-page/static/media/EP+I.a7b887e91dd4ad0552b6.jpeg",
     "static/media/img6.jpg": "/cas-fan-page/static/media/img6.bbe50da6fbc904cd59bb.jpg",
+    "static/media/Heavenly.jpg": "/cas-fan-page/static/media/Heavenly.d219e75e36f8926d67a7.jpg",
+    "static/media/Affection.jpeg": "/cas-fan-page/static/media/Affection.27fcae09232f29233f77.jpeg",
+    "static/media/Cigarettes+After+Sex.jpg": "/cas-fan-page/static/media/Cigarettes+After+Sex.b5b69f192a9754eac877.jpg",
     "static/media/fa-brands-400.ttf": "/cas-fan-page/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
     "static/media/cas-bg.jpg": "/cas-fan-page/static/media/cas-bg.1ac229274cc00307bb1d.jpg",
     "static/media/fa-solid-900.woff2": "/cas-fan-page/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/Crush.jpg": "/cas-fan-page/static/media/Crush.563763ba76c062f7f232.jpg",
     "static/media/fa-brands-400.woff2": "/cas-fan-page/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
     "static/media/img2.jpeg": "/cas-fan-page/static/media/img2.fb83bc2bab5171936e35.jpeg",
     "static/media/fa-regular-400.ttf": "/cas-fan-page/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/Neon+Moon.jpeg": "/cas-fan-page/static/media/Neon+Moon.d8a5b467af045fe6b780.jpeg",
     "static/media/fa-regular-400.woff2": "/cas-fan-page/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
     "static/media/fa-v4compatibility.ttf": "/cas-fan-page/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/cas-fan-page/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/cas-fan-page/index.html",
-    "main.9df221c0.css.map": "/cas-fan-page/static/css/main.9df221c0.css.map",
-    "main.8d41be13.js.map": "/cas-fan-page/static/js/main.8d41be13.js.map",
+    "main.42488b50.css.map": "/cas-fan-page/static/css/main.42488b50.css.map",
+    "main.fe6a1ef4.js.map": "/cas-fan-page/static/js/main.fe6a1ef4.js.map",
     "787.635aedaa.chunk.js.map": "/cas-fan-page/static/js/787.635aedaa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9df221c0.css",
-    "static/js/main.8d41be13.js"
+    "static/css/main.42488b50.css",
+    "static/js/main.fe6a1ef4.js"
   ]
 }
