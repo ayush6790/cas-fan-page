@@ -9,6 +9,8 @@ import Shows from './components/Shows';
 
 import PistolLyr from './components/Lyrics/PistolLyr';
 import YoualliwantLyr from './components/Lyrics/YoualliwantLyr';
+import Bubblegum from './components/Lyrics/Bubblegum';
+import StopWaiting from './components/Lyrics/StopWaiting';
 
 
 function App() {
@@ -23,6 +25,9 @@ function App() {
 
         <Route path="/music/pistol" element={<PistolLyr />}/> 
         <Route path="/music/yourealliwant" element={<YoualliwantLyr />}/> 
+        <Route path="/music/bubblegum" element={<Bubblegum />}/> 
+        <Route path="/music/stopwaiting" element={<StopWaiting />}/> 
+
 
         <Route path="/about" element={<About />}/>      
         <Route path="/shows" element={<Shows />}/>      

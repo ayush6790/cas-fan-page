@@ -9,12 +9,9 @@ import Crush from "./albumArt/Crush.jpg";
 import Cas from "./albumArt/Cigarettes+After+Sex.jpg";
 import Affection from "./albumArt/Affection.jpeg";
 import Ep1 from "./albumArt/EP+I.jpeg";
+import Bubblegumimg from "./albumArt/Bubblegum.jpg";
 
 import { Link, useNavigate } from "react-router-dom";
-
-
-
-
 
 
 export default function Music() {
@@ -23,6 +20,19 @@ export default function Music() {
     return (
         <>
             <div className="musicGrid" >
+                <div className="musicGrid0">
+                <div id = "music01">
+                    <img src={Bubblegumimg} alt="ds" srcset="" height={300} width={300} />
+                        <h4>Bubblegum /</h4>
+                        <Link to="/music/bubblegum">1.Bubblegum</Link> <br />
+                    </div>
+                    
+                    <div id = "music0">
+                    <img src={Bubblegumimg} alt="ds" srcset="" height={300} width={300} />
+                        <h4>Stop Waiting</h4>
+                        <Link to="/music/stopwaiting">1.Stop Waiting</Link>
+                    </div>
+                </div>
                 <div className="musicGrid1">
                     <div id="music1">
                         <img src={Pistol} alt="ds" srcset="" height={300} width={300} />

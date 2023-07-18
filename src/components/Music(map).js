@@ -78,7 +78,7 @@ import Ep1 from "./albumArt/EP+I.jpeg";
         </div>
       </div>
     );
-                }    
+    }    
   
 
       
