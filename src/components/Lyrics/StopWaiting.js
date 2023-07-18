@@ -1,8 +1,18 @@
 import React from 'react'
 import Bubblegumimg from "../albumArt/Bubblegum.jpg";
+import { useState } from "react";
+
 
 
 export default function StopWaiting() {
+    const [value, setValue] = useState(" ");
+    const [buttonVisible, setButtonVisible] = useState(true);
+
+    const handleClick = () => {
+        setValue("You have good Taste in Music");
+        setButtonVisible(false);
+    }
+
   return (
     <div className='lyricsDiv'>
     <div className="containerLyricsPage">
@@ -29,6 +39,19 @@ export default function StopWaiting() {
           <p>
           Stop waiting… <br />
           </p>
+          <br /><br /><br />
+          
+          {/* use state */}
+          <h2 style={{color:'gray'}}>{value}</h2>
+          {buttonVisible && (
+        <button
+          type="button"
+          style={{ margin: "auto", color: "beige", width: "300px", borderRadius: "20px", border: "solid black", backgroundColor: "black" }}
+          onClick={handleClick} >
+          Click me to know your taste in music
+        </button>
+      )}
+
           
       </div>
     </div>

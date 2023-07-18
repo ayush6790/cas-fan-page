@@ -35,4 +35,6 @@ export default function Bubblegum() {
     </div>
     </div>
   )
+
 }
+
