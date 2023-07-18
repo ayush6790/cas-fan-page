@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cas-fan-page/static/css/main.a1e3831b.css",
-    "main.js": "/cas-fan-page/static/js/main.4bb0d266.js",
+    "main.css": "/cas-fan-page/static/css/main.845a0886.css",
+    "main.js": "/cas-fan-page/static/js/main.6d34d593.js",
     "static/js/787.635aedaa.chunk.js": "/cas-fan-page/static/js/787.635aedaa.chunk.js",
     "static/media/img7.jpg": "/cas-fan-page/static/media/img7.12a27d4aa398bb4ce38a.jpg",
     "static/media/Falling+In+Love.jpg": "/cas-fan-page/static/media/Falling+In+Love.b1a58aed3c7df332c26b.jpg",
@@ -12,6 +12,7 @@
     "static/media/fa-solid-900.ttf": "/cas-fan-page/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/EP+I.jpeg": "/cas-fan-page/static/media/EP+I.a7b887e91dd4ad0552b6.jpeg",
     "static/media/img6.jpg": "/cas-fan-page/static/media/img6.bbe50da6fbc904cd59bb.jpg",
+    "static/media/Bubblegum.jpg": "/cas-fan-page/static/media/Bubblegum.eee8892ed3c89643248a.jpg",
     "static/media/Heavenly.jpg": "/cas-fan-page/static/media/Heavenly.d219e75e36f8926d67a7.jpg",
     "static/media/Affection.jpeg": "/cas-fan-page/static/media/Affection.27fcae09232f29233f77.jpeg",
     "static/media/Cigarettes+After+Sex.jpg": "/cas-fan-page/static/media/Cigarettes+After+Sex.b5b69f192a9754eac877.jpg",
@@ -27,12 +28,12 @@
     "static/media/fa-v4compatibility.ttf": "/cas-fan-page/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/cas-fan-page/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/cas-fan-page/index.html",
-    "main.a1e3831b.css.map": "/cas-fan-page/static/css/main.a1e3831b.css.map",
-    "main.4bb0d266.js.map": "/cas-fan-page/static/js/main.4bb0d266.js.map",
+    "main.845a0886.css.map": "/cas-fan-page/static/css/main.845a0886.css.map",
+    "main.6d34d593.js.map": "/cas-fan-page/static/js/main.6d34d593.js.map",
     "787.635aedaa.chunk.js.map": "/cas-fan-page/static/js/787.635aedaa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1e3831b.css",
-    "static/js/main.4bb0d266.js"
+    "static/css/main.845a0886.css",
+    "static/js/main.6d34d593.js"
   ]
 }
