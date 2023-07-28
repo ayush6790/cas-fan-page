@@ -296,7 +296,7 @@ a:hover{
 
 @media(max-width: 768px){
   .parent:first-of-type {
-    background: #ffffff url("components/images//imgPhone/img6.jpg") no-repeat center center fixed;
+    background: #ffffff url("components/images/imgPhone/img6.jpg") no-repeat center center fixed;
     background-size: cover;
   }
   .parent:nth-of-type(2) {

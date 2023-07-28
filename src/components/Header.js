@@ -25,6 +25,7 @@ const ButtonGroup = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 10px;
+   border-bottom: 2px solid gray;
 
   @media (min-width: 768px) {
     margin-top: 0;
@@ -63,7 +64,7 @@ export default function Header() {
   const navigate = useNavigate();
  
     return (
-      <>
+      <>   
         <Container>
           <div className="headerComp">
             <div className="headerContent">
@@ -96,7 +97,7 @@ export default function Header() {
         <SearchInput type="text" placeholder='Search' />
       </div> */}
           </div>
-        </Container>
+        </Container>  
         {/* <div className='forAddingImg'><br /> <br /> <br /> <br /> <br /> <br /> 
     <br /> <br /> <br /> <br /> <br /> <br /> <br /><br /> <br /> <br /> <br /> <br /> <br /> <br />
     "Indulge in the ethereal melodies and intimate lyricism of Cigarettes After Sex, a mesmerizing American ambient pop band hailing from El Paso. Immerse yourself in their atmospheric soundscapes and let their music transport you to a world of emotional depth and introspection. 
