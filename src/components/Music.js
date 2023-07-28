@@ -22,32 +22,32 @@ export default function Music() {
             <div className="musicGrid" >
                 <div className="musicGrid0">
                 <div id = "music01">
-                    <img src={Bubblegumimg} alt="ds" srcset="" height={300} width={300} />
+                    <img src={Bubblegumimg} alt="Bubblegum" srcset="" height={300} width={300} />
                         <h4>Bubblegum /</h4>
                         <Link to="/music/bubblegum">1.Bubblegum</Link> <br />
                     </div>
                     
                     <div id = "music0">
-                    <img src={Bubblegumimg} alt="ds" srcset="" height={300} width={300} />
+                    <img src={Bubblegumimg} alt="Stop waiting" srcset="" height={300} width={300} />
                         <h4>Stop Waiting</h4>
                         <Link to="/music/stopwaiting">1.Stop Waiting</Link>
                     </div>
                 </div>
                 <div className="musicGrid1">
                     <div id="music1">
-                        <img src={Pistol} alt="ds" srcset="" height={300} width={300} />
+                        <img src={Pistol} alt="Pistol" srcset="" height={300} width={300} />
                         <h4>Pistol</h4>
                         <Link to="/music/pistol">1.Pistol</Link>
                     </div>
                     <div id="music2">
-                        <img src={Youre} alt="ds" srcset="" height={300} width={300} />
+                        <img src={Youre} alt="You are all i want" srcset="" height={300} width={300} />
                         <h4>You're All I Want</h4>
                         <Link to='/music/yourealliwant'>1.You're All I Want</Link>
                     </div>
                 </div>
                 <div className="musicGrid2">
                     <div id="music3">
-                        <img src={Cry} alt="ds" srcset="" height={300} width={300} />
+                        <img src={Cry} alt="Cry" srcset="" height={300} width={300} />
                         <h4>Cry</h4>
                         <p>
                             <Link to ='/music/dontletme'> 1. Don’t Let Me Go</Link> <br />
@@ -63,19 +63,19 @@ export default function Music() {
                         </p>
                     </div>
                     <div id="music4">
-                        <img src={Falling} alt="ds" srcset="" height={300} width={300} />
+                        <img src={Falling} alt="Falling in love" srcset="" height={300} width={300} />
                         <h4>Falling In Love</h4>
                         <Link to ='/music/fallinginlove'>1. Falling In Love </Link> <br />
                         </div>
                 </div>
                 <div className="musicGrid3">
                     <div id="music5">
-                        <img src={Heavenly} alt="ds" srcset="" height={300} width={300} />
+                        <img src={Heavenly} alt="Heavenly" srcset="" height={300} width={300} />
                         <h4>Heavenly</h4>
                         <Link to ='/music/heavenly'>1. Heavenly</Link> <br />
                     </div>
                     <div id="music6">
-                        <img src={Neon} alt="ds" srcset="" height={300} width={300} />
+                        <img src={Neon} alt="Neonmoon" srcset="" height={300} width={300} />
                         <h4>Neon Moon</h4>
                         <Link to ='/music/neonmoon'>1. Neon Moon </Link> <br />
 
@@ -83,13 +83,13 @@ export default function Music() {
                 </div>
                 <div className="musicGrid4">
                     <div id="music7">
-                        <img src={Crush} alt="ds" srcset="" height={300} width={300} />
+                        <img src={Crush} alt="Crush" srcset="" height={300} width={300} />
                         <h4>Crush</h4>
                         <Link to ='/music/crush'>1. Crush </Link> <br />
                         <Link to ='/music/sesamesyrup'>2. Sesame Syrup</Link> <br />
                     </div>
                     <div id="music8">
-                        <img src={Cas} alt="ds" srcset="" height={300} width={300} />
+                        <img src={Cas} alt="Cigarettes After Sex" srcset="" height={300} width={300} />
                         <h4>Cigarettes After Sex</h4>
                         <Link to ='/music/k'>1. K </Link> <br />
                         <Link to ='/music/eachtimeyoufallinlove'>2. Each Time You Fall In Love </Link> <br />
@@ -106,14 +106,14 @@ export default function Music() {
                 </div>
                 <div className="musicGrid5">
                     <div id="music9">
-                        <img src={Affection} alt="ds" srcset="" height={300} width={300} />
+                        <img src={Affection} alt="Affection" srcset="" height={300} width={300} />
                         <h4>Affection</h4>
                         <Link to ='/music/affection'>1. Affection </Link> <br />
                         <Link to ='/music/keeponlovingyou'>2. Keep On Loving You </Link> <br />
                             
                     </div>
                     <div id="music10">
-                        <img src={Ep1} alt="ds" srcset="" height={300} width={300} />
+                        <img src={Ep1} alt="Ep.1" srcset="" height={300} width={300} />
                         <h4>I.</h4>
                         <Link to ='/music/nothingsgonnahurtyoubaby'>1. Nothing's Gonna Hurt You Baby</Link> <br />
                         <Link to ='/music/iamfirefighter'>2. I'am Firefighter</Link> <br />
