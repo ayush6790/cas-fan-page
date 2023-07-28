@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cas-fan-page/static/css/main.845a0886.css",
-    "main.js": "/cas-fan-page/static/js/main.b097a389.js",
+    "main.css": "/cas-fan-page/static/css/main.1d286f78.css",
+    "main.js": "/cas-fan-page/static/js/main.e9b7caee.js",
     "static/js/787.635aedaa.chunk.js": "/cas-fan-page/static/js/787.635aedaa.chunk.js",
     "static/media/img7.jpg": "/cas-fan-page/static/media/img7.12a27d4aa398bb4ce38a.jpg",
     "static/media/Falling+In+Love.jpg": "/cas-fan-page/static/media/Falling+In+Love.b1a58aed3c7df332c26b.jpg",
@@ -18,6 +18,7 @@
     "static/media/Cigarettes+After+Sex.jpg": "/cas-fan-page/static/media/Cigarettes+After+Sex.b5b69f192a9754eac877.jpg",
     "static/media/fa-brands-400.ttf": "/cas-fan-page/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
     "static/media/cas-bg.jpg": "/cas-fan-page/static/media/cas-bg.1ac229274cc00307bb1d.jpg",
+    "static/media/GreatVibes-Regular.ttf": "/cas-fan-page/static/media/GreatVibes-Regular.6d246c3b51d7eb58b13a.ttf",
     "static/media/fa-solid-900.woff2": "/cas-fan-page/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
     "static/media/Crush.jpg": "/cas-fan-page/static/media/Crush.563763ba76c062f7f232.jpg",
     "static/media/fa-brands-400.woff2": "/cas-fan-page/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
@@ -28,12 +29,12 @@
     "static/media/fa-v4compatibility.ttf": "/cas-fan-page/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/cas-fan-page/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/cas-fan-page/index.html",
-    "main.845a0886.css.map": "/cas-fan-page/static/css/main.845a0886.css.map",
-    "main.b097a389.js.map": "/cas-fan-page/static/js/main.b097a389.js.map",
+    "main.1d286f78.css.map": "/cas-fan-page/static/css/main.1d286f78.css.map",
+    "main.e9b7caee.js.map": "/cas-fan-page/static/js/main.e9b7caee.js.map",
     "787.635aedaa.chunk.js.map": "/cas-fan-page/static/js/787.635aedaa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.845a0886.css",
-    "static/js/main.b097a389.js"
+    "static/css/main.1d286f78.css",
+    "static/js/main.e9b7caee.js"
   ]
 }
