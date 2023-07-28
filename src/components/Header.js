@@ -9,7 +9,7 @@ const Container = styled.div`
   right: 0;
   z-index: 999;
   height: 140px;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.99);
   padding: 9px;
 
   @media (min-width: 768px) {

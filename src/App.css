@@ -1,10 +1,21 @@
+@font-face {
+  font-family: 'GreatVibes';
+  src: url('./components/fonts/Great_Vibes/GreatVibes-Regular.ttf') format('truetype')
+
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+
 .App {
   text-align: center;
 }
 *{
   /* font: italic 1.2em "Fira Sans", serif; */
-  font: normal 1.2em "Fira Sans", serif;
+  /* font: normal 1.2em "Fira Sans", serif; */
   font-size: large;
+  font-family: normal 1.2em 'Gruppo', sans-serif;
+
 
 }
 .headerComp{
@@ -81,9 +92,12 @@
 }
 .containerLyricsPage {
   display: flex;
-  height: 100vh;
-  
+  /* height: 100vh; */
+  /* flex-direction: column;  use this in mobile view */
 }
+
+ 
+
 
 .left-div {
   flex: 1;
@@ -93,6 +107,7 @@
   display: flex;
   justify-content: flex-end;
   padding: 20px;
+  padding-top: 45px;
 }
 .left-div img{
   height: 450px;
@@ -108,18 +123,45 @@
   /* background-color: lightgreen; */
 }
 .right-div p{
-  font-size: 21px;
-  color:gray ;
+  font-size: 20px;
+  color:rgb(194, 186, 186) ;
+  font-family: GreatVibes;
+  /* font-family: 'baskerville-urw'; */
+  font-style: italic;
+  letter-spacing: 4px;
 }
 .right-div h3{
-  color:gray;
+
+  color:rgb(187, 184, 184);
   font-weight: bold;
   line-height: 70px;
+  font-family: 'Gruppo', sans-serif;
+  text-transform: uppercase;
 }
-
+@media(max-width: 768px) {
+  *{
+    background-color: #000;
+  }
+  .containerLyricsPage{
+    flex-direction: column;
+  }  
+  .footerhide{
+    display: none;
+  }
+  .right-div, .left-div{
+    width: 100% ;
+    padding: 0px;
+    margin: 0 5px;
+  }
+  .left-div{
+    display: flex;
+    justify-content: center;
+  }
+  
+}
 /*  Music page cc*/
 .musicGrid{
-  background-color: rgba(0,0,0,0.96);
+  background-color: rgba(0,0,0,0.991);
 }
 .musicGrid1, .musicGrid2, .musicGrid3, .musicGrid4, .musicGrid5, .musicGrid0 {
   padding: 10px;
@@ -210,11 +252,11 @@ a:hover{
   margin: 0
 }
 .parent:first-of-type {
-  background: #ffffff url("components/img4.jpg") no-repeat center center fixed;
+  background: #ffffff url("components/img6.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 .parent:nth-of-type(2) {
-  background: #ffffff url("components/img6.jpg") no-repeat center center fixed;
+  background: #ffffff url("components/img4.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 .parent:nth-of-type(3) {

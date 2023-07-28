@@ -3,9 +3,10 @@ import { MDBFooter, MDBContainer, MDBIcon, MDBBtn } from 'mdb-react-ui-kit';
 
 export default function App() {
   return (
+    <div className='footerhide'>
     <MDBFooter
       style={{
-        position: 'relative',
+        position: 'sticky',
         bottom: '0',
         left: '0',
 		right: '0',
@@ -42,5 +43,6 @@ export default function App() {
         © 2023 Work in Progress
       </div>
     </MDBFooter>
+    </div>
   );
 }

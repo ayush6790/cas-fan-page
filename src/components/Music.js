@@ -50,48 +50,43 @@ export default function Music() {
                         <img src={Cry} alt="ds" srcset="" height={300} width={300} />
                         <h4>Cry</h4>
                         <p>
-                            1. Don’t Let Me Go <br />
-                            2. Kiss It Off Me <br />
-                            3. Heavenly <br />
-                            4. You’re the Only Good Thing in My Life <br />
-                            5. Touch <br />
-                            6. Hentai <br />
-                            7. Cry <br />
-                            8. Falling In Love <br />
-                            9. Pure
+                            <Link to ='/music/dontletme'> 1. Don’t Let Me Go</Link> <br />
+                            <Link to ='/music/kissit'> 2. Kiss It Off Me</Link> <br />
+                            <Link to ='/music/heavenly'>3. Heavenly</Link> <br />
+                            <Link to='/music/youaretheonly'> 4. You’re the Only Good Thing in My Life</Link> <br />
+                            <Link to ='/music/touch'>5. Touch</Link> <br />
+                            <Link to ='/music/hentai'>6. Hentai</Link> <br />
+                            <Link to ='/music/cry'>7. Cry </Link> <br />
+                            <Link to ='/music/fallinginlove'>8. Falling In Love </Link> <br />
+                            <Link to ='/music/pure'>9. Pure </Link> <br />
+                            
                         </p>
                     </div>
                     <div id="music4">
                         <img src={Falling} alt="ds" srcset="" height={300} width={300} />
                         <h4>Falling In Love</h4>
-                        <p>
-                            1. Falling In Love
-                        </p></div>
+                        <Link to ='/music/fallinginlove'>1. Falling In Love </Link> <br />
+                        </div>
                 </div>
                 <div className="musicGrid3">
                     <div id="music5">
                         <img src={Heavenly} alt="ds" srcset="" height={300} width={300} />
                         <h4>Heavenly</h4>
-                        <p>
-                            1. Heavenly
-                        </p>
+                        <Link to ='/music/heavenly'>1. Heavenly</Link> <br />
                     </div>
                     <div id="music6">
                         <img src={Neon} alt="ds" srcset="" height={300} width={300} />
                         <h4>Neon Moon</h4>
-                        <p>
-                            1. Neon Moon
-                        </p>
+                        <Link to ='/music/neonmoon'>1. Neon Moon </Link> <br />
+
                     </div>
                 </div>
                 <div className="musicGrid4">
                     <div id="music7">
                         <img src={Crush} alt="ds" srcset="" height={300} width={300} />
                         <h4>Crush</h4>
-                        <p>
-                            1. Crush <br />
-                            2. Sesame Syrup
-                        </p>
+                        <Link to ='/music/crush'>1. Crush </Link> <br />
+                        <Link to ='/music/sesamesyrup'>2. Sesame Syrup</Link> <br />
                     </div>
                     <div id="music8">
                         <img src={Cas} alt="ds" srcset="" height={300} width={300} />
