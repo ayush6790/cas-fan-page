@@ -1,10 +1,10 @@
 import React from "react";
 import cry from "../albumArt/Cry-min.jpg";
 
-export default function Youaretheonlygoodthing() {
+export default function Touch() {
   return (
     <div className="lyricsDiv">
-      <div className="containerLyricsPage">
+      <div style={{display:'flex',height:'100%'}} className="containerLyricsPage">
         <div className="left-div">
           <img src={cry} alt="TOUCH" />
         </div>

@@ -92,7 +92,8 @@
 }
 .containerLyricsPage {
   display: flex;
-  /* height: 100vh; */
+  min-height: fit-content !important;
+  height: 100vh;
   /* flex-direction: column;  use this in mobile view */
 }
 
@@ -129,6 +130,7 @@
   /* font-family: 'baskerville-urw'; */
   font-style: italic;
   letter-spacing: 4px;
+  font-weight: 500;
 }
 .right-div h3{
 

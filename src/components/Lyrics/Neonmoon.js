@@ -36,7 +36,7 @@ export default function Neonmoon() {
               Telling my poor heart you’ll come back one day... <br />
             </p>
             <p>
-              But I’ll be alright as long as there’s light from a neon moon...{" "}
+              But I’ll be alright as long as there’s light from a neon moon...
               <br />
             </p>
             <br />

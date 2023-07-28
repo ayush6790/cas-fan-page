@@ -91,38 +91,34 @@ export default function Music() {
                     <div id="music8">
                         <img src={Cas} alt="ds" srcset="" height={300} width={300} />
                         <h4>Cigarettes After Sex</h4>
-                        <p>
-                            1. K <br />
-                            2. Each Time You Fall In Love <br />
-                            3. Sunsetz <br />
-                            4. Apocalypse <br />
-                            5. Flast <br />
-                            6. Sweet <br />
-                            7. Opera House <br />
-                            8. Truly <br />
-                            9. John Wayne <br />
-                            10. Young & Dumb <br />
-                        </p>
+                        <Link to ='/music/k'>1. K </Link> <br />
+                        <Link to ='/music/eachtimeyoufallinlove'>2. Each Time You Fall In Love </Link> <br />
+                        <Link to ='/music/sunsetz'>3. Sunsetz </Link> <br />
+                        <Link to ='/music/apocalypse'>4. Apocalypse </Link> <br />
+                        <Link to ='/music/flash'>5. Flast  </Link> <br />
+                        <Link to ='/music/sweet'>6. Sweet </Link> <br />
+                        <Link to ='/music/operahouse'>7. Opera House </Link> <br />
+                        <Link to ='/music/truly'>8. Truly </Link> <br />
+                        <Link to ='/music/johnwayne'>9. John Wayne </Link> <br />
+                        <Link to ='/music/younganddumb'>10. Young & Dumb </Link> <br />
+
                     </div>
                 </div>
                 <div className="musicGrid5">
                     <div id="music9">
                         <img src={Affection} alt="ds" srcset="" height={300} width={300} />
                         <h4>Affection</h4>
-                        <p>
-                            1. Affection <br />
-                            2. Keep On Loving You <br />
-                        </p>
+                        <Link to ='/music/affection'>1. Affection </Link> <br />
+                        <Link to ='/music/keeponlovingyou'>2. Keep On Loving You </Link> <br />
+                            
                     </div>
                     <div id="music10">
                         <img src={Ep1} alt="ds" srcset="" height={300} width={300} />
                         <h4>I.</h4>
-                        <p>
-                            1. Nothing's Gonna Hurt You Baby <br />
-                            2. I'am Firefighter <br />
-                            3. Dreaming of You  <br />
-                            4. Starry Eyes
-                        </p>
+                        <Link to ='/music/nothingsgonnahurtyoubaby'>1. Nothing's Gonna Hurt You Baby</Link> <br />
+                        <Link to ='/music/iamfirefighter'>2. I'am Firefighter</Link> <br />
+                        <Link to ='/music/dreamingofyou'>3. Dreaming of You  </Link> <br />
+                        <Link to ='/music/starryeyes'>4. Starry Eyes</Link> <br />
                     </div>
                 </div>
             </div>
